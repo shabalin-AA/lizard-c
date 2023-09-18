@@ -1,0 +1,9 @@
+#!./bin/liz
+
+def: l list: 1 2 3 4 5
+
+def: sq lambda: [x]
+		*: x x
+		
+map: l sq
+print: l
